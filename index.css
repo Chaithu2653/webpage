@@ -1,0 +1,95 @@
+body{
+    background-image: url(./Wallpaper\ pc\ Totoro.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.main{
+    width: 425px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: white;
+}
+.logo{
+    border-radius: 1000px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.bye{
+    display:flex;
+    
+}
+.hii{
+    margin-top: 20px;
+    height:25px;
+    width:150px;
+}
+
+.but{
+    color: white;
+    height: 50px;
+    background-color: black;
+    margin-left: 159px;
+    margin-top: 75px;
+    border-radius: 1000px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.but:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.butt{
+    color: white;
+    height: 50px;
+    background-color: black;
+    margin-left: 400px;
+    margin-top: 500px;
+    border-radius: 1000px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.butt:hover{
+    background-color: white;
+    color: black;
+}
+
+.yello{
+    text-align: left;
+    margin-right: 500px;
+    color: beige;
+    margin-top: 100px;
+}
+
+.evo{
+    color: rgb(225, 214, 214);
+    height: 100px;
+    margin-left: 200px;
+    border-radius: 1000px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.evo:hover{
+    background-color: white;
+    color: black;
+}
+.add{
+    text-decoration:underline;
+}
+
+.pic{
+    width: 250px;
+    height: 200px;
+    margin-left: 150px;
+}
+

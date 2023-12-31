@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="index.css" rel="stylesheet">
+    <title>LOGIN PAGE</title>
+</head>
+<body>  
+    <div class="main">
+        <img class="logo" src="./Best Logo Design Company India _ Logo Design Services Delhi.jpeg">
+        <div class="bye" >
+            <h2 class="name">Enter Username:</h2>
+            <input class="hii" id="user" type="text">
+        </div>
+        <div class="bye">
+            <h2 class="name">Enter Password:</h2>
+            <input class="hii" id="pass" type="password">
+        </div>
+        <button class="but" onclick="submitForm()">SUBMIT</button>
+    </div>
+
+
+<script>
+
+function submitForm() {
+var input1Value = document.getElementById("user").value;
+var input2Value = document.getElementById("pass").value;
+
+console.log("USERNAME", input1Value);
+console.log("PASSWORD", input2Value);
+
+sessionStorage.setItem('tempInput1', input1Value);
+sessionStorage.setItem('tempInput2', input2Value);
+
+window.location.href = 'homepage.html';
+}
+</script>
+</body>
+</html>
